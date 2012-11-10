@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Space Race</title>
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+  <script src='engine.js'></script>
+  <script src='game.js'></script>
+  <script src='level.js'></script>
+
+  <style>
+      body {
+       background-color: #000;   
+      }
+      p {color: white; font-family: arial; display: inline;}
+      #gameboard { background-color:black; display: block;
+    margin: 0 auto; border-style:solid;
+border-color:white; }
+      #game-wrapper { margin:0 auto; width: 500px; }
+  </style>
+</head>
+<body>
+    <center><div><img src="logo.png"></div>
+        <p>_______________________________________________</p>
+        <br>
+<!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share" data-annotation="bubble"></div>
+
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+    </div>
+        
+<br>
+    <canvas id='gameboard' width='700' height='500'></canvas>
+    <img src="wecomeinpeace.png"><br>    </center>
+        <div class="fb-comments" data-href="http://spaceracebeta.appspot.com" data-num-posts="5" data-width="470" data-colorscheme="dark"></div>
+    
+
+
+</body>
+</html>
